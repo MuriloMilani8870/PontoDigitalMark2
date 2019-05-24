@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style-login.css">
+
+    <title>Ponto Digital | História </title>
+</head>
+<body>
+    <header>
+    <h1>Login</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="IMG/logo.jpg" alt="Imagem do logo do produto Ponto Digital" title="Ponto Digital"></a> </li>
+            <li><a href="produtos.html">Planos</a> </li>
+            <li><a href="historia.html">Quem somos</a></li>
+            <li><a href="contatos.html">Apoio Ao Cliente</a></li>
+            <li class="destaque"><a href="#">Login</a></li>
+            
+        </ul>
+    </nav>
+    <span id="btn_menu" class="botao_menu">M</span>
+</header>
+<main class="conteudo_geral">
+    <div class="imagem">
+        <img src="IMG/logo.png" alt="imagem do logo do produto Ponto Digital">
+    </div>
+
+    <section class="conteudo">
+        <div class="login">
+            <form action="action_page.php" class="log">
+                
+                <div class="container">
+                        <h2>Login</h2>
+                              <input type="text" placeholder="Email ou CPF" name="uname" required>
+                          
+                              
+                              <input type="password" placeholder="Senha" name="psw" required>
+                          
+                              <button type="submit">Login</button>
+                              <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                          </form>
+                          </div>
+
+        </div>
+        
+
+        <div class="cadastre-se">
+            <form action="" method="get">
+                
+                <h2>Cadastre-se</h2>
+                    <div class="parte1  "> 
+                        <div>
+                              <input type="text" name="nome" placeholder="Nome" maxlength="50" required>
+                        <br>
+                        </div>
+                      
+                        <div>
+
+                      
+                        <input type="text" name="sobrenome" placeholder="Sobrenome" maxlength="30" required>
+                        <br>  
+                        </div>
+                    </div>
+
+                    <div class="parte2">
+
+                   
+                        <input type="email" name="email" placeholder="Email" maxlength="30" required>
+                        <br>
+
+                        <input type="CPF" name="CPF" placeholder="CPF" maxlength="15" required>
+                        <br>
+                    </div>
+
+                    <div class="parte3">
+
+                  
+                        <input type="password" name="senha" placeholder="Senha" required>
+                        <br>
+                        
+                        <input type="password" name="confirm_password" placeholder="Confirme a senha" required>
+                        <br>
+                    </div>
+                    
+                    <div class="parte4">
+
+                    
+                        <div class="nascimento">
+                            <label for="nasciento">Data de nascimento</label>
+                            <input type="date" name="nascimento" max="2019/02/21" min="1900/01/01">
+                        </div>
+
+                        
+                            <div class="genero">
+                                 Masculino: <input type="radio" name="Genero" value="Masculino">
+                                Feminino:
+                                <input type="radio" name="Genero" value="Feminino">
+                                Outros:
+                                <input type="radio" name="Genero" value="Outros">
+                            </div>
+                        
+                    </div>   
+                        <label for="termos">Eu aceito os termos</label>
+                    <input type="checkbox" name="Termos" value="aceito" required>
+
+                    <button type="submit">Cadastre-se</button>
+
+        </div>
+
+    </section>
+
+    <footer id="footer">
+            <h2>Continue Conosco</h2>
+
+                <div class="sociais">
+                   <p>
+                        Politica de privacidade
+                   </p> 
+                   <p>
+                       EULA
+                   </p>
+                   <div class="redes">
+                   <a href="https://www.facebook.com/"><img src="IMG/Facebook logo.png 2.png" alt="Logo do facebook"></a>
+                   <a href="https://mail.google.com/mail/u/0/"><img src="IMG/gmail.png" alt="Logo do facebook"></a>
+                    </div>
+                   <p>
+                       Avenida Paulista N°: XX
+                   </p>
+
+                   <p>
+                       Telefone: +55 (11) 1234-4321
+                   </p>
+
+                </div>
+                <a href="#">Volte para o topo!</a>
+        </footer>
+
+</main>
+</body>
+</html>
