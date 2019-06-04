@@ -1,0 +1,18 @@
+{
+  "FilePath": "c:\\Users\\44688951876\\Desktop\\NovoPontoDigital\\PontoDigitalMark2\\NovoPontoDigital.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "NovoPontoDigital",
+  "Documents": []
+}
