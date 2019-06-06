@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\NovoPontoDigital\\NovoPontoDigital.csproj",
+      "projectUniqueName": "C:\\Users\\44688951876\\Desktop\\NovoPontoDigital\\PontoDigitalMark2\\NovoPontoDigital.csproj",
       "projectName": "NovoPontoDigital",
-      "projectPath": "C:\\Users\\44688951876\\Desktop\\NovoPontoDigital\\NovoPontoDigital.csproj",
+      "projectPath": "C:\\Users\\44688951876\\Desktop\\NovoPontoDigital\\PontoDigitalMark2\\NovoPontoDigital.csproj",
       "packagesPath": "C:\\Users\\44688951876\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44688951876\\Desktop\\NovoPontoDigital\\obj\\",
+      "outputPath": "C:\\Users\\44688951876\\Desktop\\NovoPontoDigital\\PontoDigitalMark2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

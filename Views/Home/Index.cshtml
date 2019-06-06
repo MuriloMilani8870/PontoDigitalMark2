@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ponto Digital</title>
-</head>
-
-<body>
-    <header>
-        <h1>Ponto Digital</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Ponto Digital </a></li>
-                <li><a href="produtos.html">Produtos</a> </li>
-                <li><a href="historia.html">História</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
-                <li><a href="login.html">Entrar</a></li>
-
-            </ul>
-        </nav>
-    </header>
+<header>
+    @{
+        Html.RenderPartial("_HeaderNavBar");
+    }
+</header>
     <main class="conteudo_geral">
         <section class="banner">
             <div class="intro">
@@ -48,6 +29,5 @@
             <h2>O melhor na área de gerenciamento de funcionarios!!!</h2>
         </section>
     </main>
-</body>
 
 </html>

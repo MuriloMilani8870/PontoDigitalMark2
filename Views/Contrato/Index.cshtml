@@ -1,0 +1,39 @@
+@model PontoDigitalMark2.ViewModels.ContratoViewModel
+
+<header>
+    @{
+        Html.RenderPartial("_HeaderNavBar");
+    }
+</header>
+<main>
+    
+        <h2>Contratação do plano!</h2>
+        <form method="POST" action="Contrato/RegistrarContrato">
+            <div>
+                <label for="nome">Nome Completo</label>
+                <br />
+                <input id="nome" type="text" maxlength="20" minlength="3" name="nome" value="@Model.Cliente.Nome"/>
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <br />
+                <input id="email" type="email" name="email" value="@Model.Cliente.Email"/>
+            </div>
+
+            <div class="double-field">
+                <div>
+                    <label for="plano">Plano</label>
+                    <select id="plano" name="plano" required>
+                        <option value="" disabled selected>Selecione</option>
+                        @foreach (var plano in Model.Planos)
+                        {
+                            <option value="@plano.Nome">@plano.Nome</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <input type="submit" value="Finalizar contrato!" />
+        </form>
+
+    </main>
