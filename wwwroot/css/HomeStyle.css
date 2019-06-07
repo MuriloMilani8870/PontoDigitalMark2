@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Roboto Slab','Londrina Solid',serif, cursive;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    padding: 20px 0;
+}
+body{
+    background-color: aquamarine;
+}
+
+
+
+
