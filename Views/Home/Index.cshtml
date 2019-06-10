@@ -1,34 +1,82 @@
-<header>
-    @{
-        Html.RenderPartial("_HeaderNavBar");
-    }
-</header>
+<div class="fundonavbanner">
+
+    <header>
+        @{
+            Html.RenderPartial("_HeaderNavBar");
+        }
+    </header>
     <main class="conteudo_geral">
-        <section class="banner">
+        <section id="banner">
             <div class="intro">
                 <img src="IMG/logo.png" alt="Imagem do logo do produto Ponto Digital">
                 <p>Falta apenas <br> <strong class="banner_destaque">UM PONTO <br></strong> para você evoluir a sua
                     empresa </p>
-            </div>
+                    <br>
+                </div>
+                <div class="introducao">
 
-            <article class="info">
-                <p>
-                    O <strong> Ponto digital </strong> é uma ferramenta desenvolvida pela equipe <strong> Agora Vai
-                    </strong> idealizada para que os chefes e donos de empresas consigam administrar as funções e
-                    horários de seus funcionários de forma online e em tempo real
+                    <article class="info">
+                        <p>
+                            O <strong> Ponto digital </strong> é uma ferramenta desenvolvida pela equipe <strong> Agora Vai
+                            </strong> idealizada para que os chefes e donos de empresas consigam administrar as funções e
+                            horários de seus funcionários de forma online e em tempo real
+                            
+                        </p>
+                    </article>
+                </div>
+                
+                <div class="banner_freetrial">
+                    <a id="bt_login" asp-controller="Cliente" asp-action="Login">Experimente o teste grátis por 30 dias </a>
+                </div>
+            </section>
+        </div>
 
-                </p>
-            </article>
-
-            <div class="banner_freetrial">
-                <a href="#produtos">Experimente o teste grátis por 30 dias</a>
-            </div>
-        </section>
-
-        <section class="Projetos">
+        <section id="planos">
             <h2>O melhor na área de gerenciamento de funcionarios!!!</h2>
-            
-        </section>
+            <div class="planos-conteudo">
+
+                <div class="detalhes">
+                    <iframe src="produtos/Vazio.html" frameborder="0" name="janela" width="100%" height="600"></iframe>  
+                </div>
+                
+            <div class="produtos">
+                    <img src="IMG/logo.png" alt="Logo do produto Ponto Digital">
+                    <div class="planos">
+                        <h2>Planos</h2>
+                        <p><a href="produtos/free.html" target="janela">Grátis</a></p>
+                        <p><a href="produtos/menor.html" target="janela"> Minor</a></p>
+                        <p><a href="produtos/padrão.html" target="janela">Standart</a></p>
+                        <p><a href="produtos/maior.html" target="janela">Major </a> </p>
+                        <p><a href="produtos/mestre.html" target="janela"> Master</a></p>
+                        <a id="bt_login" asp-controller="Cliente" asp-action="Login">Compre já!</a>
+                        
+                    </div> 
+                </div>
+            </div>
+                
+            </section>
+
+            <section id="historia">
+                <h2> A Empresa que é sinônimo de eficiência</h2>
+                <div class="empresa">
+                        <img src="IMG/empresa.jpg" alt="Imagem que ilustra fachada do escritório da empresa Agora Vai">
+                        <p>
+                            <br>
+                            <strong>Agora vai</strong> foi uma empresa fundada em 1999 por <strong>Carlos Eduardo Tsukamoto</strong> e <strong>Cesar Felipe Sportore </strong> <br>
+                            A empresa possui um escritório localizado na <strong>Av.Paulista </strong> e desde sua fundação busca desenvolver softwares para melhorar a vida de todos os clientes. 
+                        </p>
+                </div>
+                <br>
+
+                <div class="ponto">
+                        <p>
+                                Os fundadores tem em suas essências diversos valores, visões e missões para o benefício de todos e esses valores reflitiram positivamente na empresa consequentemente em seus produtos. <br>
+                                Hoje possuímos mais de 50 funcionários capacitados trabalhando para nossa empresa e conseguimos nos manter como uma das líderes de negócios em nossa área.
+                            </p>
+                            <img src="IMG/logo.png" alt="Imagem do logo da empresa Agora Vai">                
+
+                </div>
+            </section>
     </main>
 
 </html>

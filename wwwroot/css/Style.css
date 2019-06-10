@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Nav*/
+nav{
+    background-color: #101619;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    list-style-type: none;
+
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.4em 2em;
+}
+
+a.active{
+    color: #F29F05;
+}
+
+nav a:hover{
+    background-color: #033E8C;
+    color: #fff;
+}
+
+
+
+body {
+    font-family: 'Calibri', 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Roboto Slab','Londrina Solid',serif, cursive;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    padding: 20px 0;
+}
+
+.fundonavbanner{
+    background-image: url(../IMG/planos-background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+#banner{
+    color: #fff;
+}
+
+#banner p{
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-left: 2.4em;
+}
+.produtos img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.detalhes iframe{
+    margin-top: 50px;
+    width: 600px;
+}
+.plano img{
+    width: 100%;
+    max-width: 150px;
+}
+
+.plano{
+    font-size: 1.5em;
+    color: #F29F05;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.planos p{
+    text-decoration: none;
+    padding: 7px;
+    font-size: 1em;
+}
+
+.planos a{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.plano a{
+    text-decoration: none;
+}
+
+.nada{
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 200px;
+    color: #F29F05;
+}
+
+.planos-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0%;
+    margin: 0%;
+}
+
+#planos h2{
+    font-size: 2em;
+    color: #033E8C;
+}
+
+#historia h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffbc0d;
+}
+
+#historia{
+    background-color: #162326;
+    text-align: center;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#historia img{
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+
+}
+
+.empresa{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.empresa p{
+    padding: 30px;
+    margin: 20px;
+    margin-right: 100px;
+    border-radius: 30px;
+    height: 200px;
+    color: #fff;
+    
+}
+
+.ponto{
+    margin: 30px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ponto p{
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    height: 200px;
+    color: #fff;
+}
+
+
+
+
+
+
+
