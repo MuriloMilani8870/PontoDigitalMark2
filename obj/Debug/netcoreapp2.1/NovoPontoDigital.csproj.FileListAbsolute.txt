@@ -34,3 +34,5 @@ C:\Users\44688951876\Desktop\NovoPontoDigital\PontoDigitalMark2\obj\Debug\netcor
 C:\Users\44688951876\Desktop\NovoPontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\NovoPontoDigital.dll
 C:\Users\44688951876\Desktop\NovoPontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\NovoPontoDigital.pdb
 C:\Users\44688951876\Desktop\NovoPontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\NovoPontoDigital.csproj.CopyComplete
+C:\Users\44688951876\Desktop\NovoPontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Depoimento.g.cshtml.cs
+C:\Users\44688951876\Desktop\NovoPontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Listar.g.cshtml.cs

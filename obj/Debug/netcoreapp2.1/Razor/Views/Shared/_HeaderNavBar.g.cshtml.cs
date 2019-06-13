@@ -67,7 +67,7 @@ using NovoPontoDigital.Models;
             WriteLiteral("\r\n <nav>\r\n            <div class=\"section-container\">\r\n                <ul>\r\n                    <li>");
             EndContext();
             BeginContext(151, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f3c6e594fd54f759a9465777cac9537", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0df7ac171184347b3a03951cc3aa27e", async() => {
                 BeginContext(210, 9, true);
                 WriteLiteral("Principal");
                 EndContext();
@@ -134,7 +134,7 @@ WriteAttributeValue("", 443, Url.Action("Index", "Home"), 443, 28, false);
             WriteLiteral("                    <li>");
             EndContext();
             BeginContext(601, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bdbd7e6413084807b232eb64347e68a1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21b82e0790ee4c01a3ed830e68990c28", async() => {
                 BeginContext(662, 14, true);
                 WriteLiteral("Login/Cadastro");
                 EndContext();
@@ -169,7 +169,7 @@ WriteAttributeValue("", 443, Url.Action("Index", "Home"), 443, 28, false);
             WriteLiteral("                        <li>");
             EndContext();
             BeginContext(791, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3675d721a7f1471a9f70961a2c5e02da", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1fbbfb2b6a9249f9a7bc97026bdfd84b", async() => {
                 BeginContext(854, 6, true);
                 WriteLiteral("Logout");
                 EndContext();

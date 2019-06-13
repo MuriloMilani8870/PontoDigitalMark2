@@ -2,6 +2,9 @@
 
     <header>
         @{
+    var user = (string) ViewData["User"];
+}
+        @{
             Html.RenderPartial("_HeaderNavBar");
         }
     </header>
@@ -74,6 +77,21 @@
                                 Hoje possuímos mais de 50 funcionários capacitados trabalhando para nossa empresa e conseguimos nos manter como uma das líderes de negócios em nossa área.
                             </p>
                             <img src="IMG/logo.png" alt="Imagem do logo da empresa Agora Vai">                
+
+                </div>
+            </section>
+            <section id="contato">
+                <h2>Entre em contato conosco</h2>
+                @if(string.IsNullOrEmpty(user))
+                {
+                <a id="bt_login" asp-controller="Cliente" asp-action="Login">Faça login para nos contatar!</a>
+                }else
+                {
+                    <a id="bt_depoimento" asp-controller="Cliente" asp-action="Depoimento">Deixe aqui seu depoimento!</a>
+                }
+                    <a id="bt_listar" asp-controller="Cliente" asp-action="Listar">Todos os depoimentos!</a>
+
+                <div class="depoimentos">
 
                 </div>
             </section>

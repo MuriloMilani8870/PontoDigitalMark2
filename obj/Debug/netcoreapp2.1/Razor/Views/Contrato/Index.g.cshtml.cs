@@ -68,7 +68,7 @@ using NovoPontoDigital.Models;
             WriteLiteral("</header>\n<main>\n    \n        <h2>Contratação do plano!</h2>\n        ");
             EndContext();
             BeginContext(191, 1087, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "76206144924b46c1a5a1af2ebc1c71fc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78955de0f1c54bba97407090f170baf7", async() => {
                 BeginContext(247, 183, true);
                 WriteLiteral("\n            <div>\n                <label for=\"nome\">Nome Completo</label>\n                <br />\n                <input id=\"nome\" type=\"text\" maxlength=\"20\" minlength=\"3\" name=\"nome\"");
                 EndContext();
@@ -93,7 +93,7 @@ WriteAttributeValue("", 639, Model.Cliente.Email, 639, 20, false);
                 WriteLiteral("/>\n            </div>\n\n            <div class=\"double-field\">\n                <div>\n                    <label for=\"plano\">Plano</label>\n                    <select id=\"plano\" name=\"plano\" required>\n                        ");
                 EndContext();
                 BeginContext(883, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff20ad93a6864df38a3f9a058cbe2354", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43abd94370ef4533a17076b3f302c616", async() => {
                     BeginContext(918, 9, true);
                     WriteLiteral("Selecione");
                     EndContext();
@@ -130,7 +130,7 @@ WriteAttributeValue("", 639, Model.Cliente.Email, 639, 20, false);
                 WriteLiteral("                            ");
                 EndContext();
                 BeginContext(1052, 48, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c7524b395e81426c9bb401852004d27d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8683de7a380d4f5b9f0910b5ba53ed10", async() => {
                     BeginContext(1081, 10, false);
 #line 31 "C:\Users\44688951876\Desktop\NovoPontoDigital\PontoDigitalMark2\Views\Contrato\Index.cshtml"
                                                    Write(plano.Nome);

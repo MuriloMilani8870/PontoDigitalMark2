@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PontoDigitalMark2.Models;
 using PontoDigitalMark2.Repositorios;
+using PontoDigitalMark2.ViewModels;
 
 namespace PontoDigitalMark2.Controllers
 {
@@ -8,6 +10,9 @@ namespace PontoDigitalMark2.Controllers
     {
         private ClienteRepositorio clienteRepositorio = new ClienteRepositorio();
 
+        DepoimentoRepositorio depoimentoRepositorio = new DepoimentoRepositorio();
+
+        ContratoViewModel contratoviewmodel = new ContratoViewModel();
         private const string SESSION_EMAIL = "_EMAIL";
 
         private const string SESSION_CLIENTE = "_CLIENTE";
@@ -17,6 +22,23 @@ namespace PontoDigitalMark2.Controllers
             return View();
         }
 
+        public IActionResult Depoimento(){
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Registrar(IFormCollection form){
+            Depoimento depoimento = new Depoimento();
+            depoimento.Nome = form["nome"];
+            depoimento.Depoimento = form["depoimento"];
+
+            depoimentoRepositorio.InserirNoCSV(depoimento);
+
+            ViewData["Controller"] = "Depoimento";
+            return View("Sucesso");
+        }
+
+        
 
         [HttpPost]
         public IActionResult Login(IFormCollection form){
@@ -33,6 +55,7 @@ namespace PontoDigitalMark2.Controllers
             return RedirectToAction("Index" , "Home");
         }
 
+        [HttpGet]
         public IActionResult Logout(){
             HttpContext.Session.Remove(SESSION_EMAIL);
             HttpContext.Session.Remove(SESSION_CLIENTE);
@@ -41,5 +64,12 @@ namespace PontoDigitalMark2.Controllers
             return RedirectToAction("Index" , "Home");
 
         }
+
+         public IActionResult Listar(){
+            DepoimentoRepositorio depoimentoRepositorio = new DepoimentoRepositorio();
+            ViewData["depoimentos"] = depoimentoRepositorio.Listar();
+            return View();
+        }
+
     }
 }
