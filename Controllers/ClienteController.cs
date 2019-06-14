@@ -32,7 +32,7 @@ namespace PontoDigitalMark2.Controllers
             depoimento.Nome = form["nome"];
             depoimento.Depoimento = form["depoimento"];
 
-            depoimentoRepositorio.InserirNoCSV(depoimento);
+            depoimentoRepositorio.Adicionar(depoimento);
 
             ViewData["Controller"] = "Depoimento";
             return View("Sucesso");

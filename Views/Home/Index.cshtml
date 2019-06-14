@@ -27,10 +27,6 @@
                         </p>
                     </article>
                 </div>
-                
-                <div class="banner_freetrial">
-                    <a id="bt_login" asp-controller="Cliente" asp-action="Login">Experimente o teste grátis por 30 dias </a>
-                </div>
             </section>
         </div>
 
@@ -51,7 +47,13 @@
                         <p><a href="produtos/padrão.html" target="janela">Standart</a></p>
                         <p><a href="produtos/maior.html" target="janela">Major </a> </p>
                         <p><a href="produtos/mestre.html" target="janela"> Master</a></p>
+                        @if(string.IsNullOrEmpty(user))
+                        {
+                        <a id="bt_login" asp-controller="Cliente" asp-action="Login">Faça login já!</a>
+                         }else
+                        {
                         <a id="bt_login" asp-controller="Cliente" asp-action="Login">Compre já!</a>
+                        }
                         
                     </div> 
                 </div>

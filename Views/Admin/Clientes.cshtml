@@ -1,0 +1,47 @@
+@{
+    Layout = "_AdminLayout";
+}
+@model PontoDigitalMark2.ViewModels.AdminViewModel
+
+
+
+<section id="conteudo">
+    <h2>Ponto Digital</h2>
+    <h3>Central de administração</h3>
+
+
+    @if (@Model.listaDeUsuarios.Count == 0)
+    {
+        <p>Não há usuários Registrados.</p>
+    }
+
+        <div id="cadastros">
+                <h4>Usuários cadastrados:</h4>
+                
+                <p>@ViewData["Mensagem"]</p>
+
+                <div id="usuarios">
+                @for (int i = 0; i < @Model.listaDeUsuarios.Count; i++)
+                {
+                    @if (!@Model.listaDeUsuarios[i].Admin)
+                    {
+                        <div class="usuarios">
+                            <div class="topo">
+                                <p class=""> <span>ID: @Model.listaDeUsuarios[i].ID </span> - Nome: @Model.listaDeUsuarios[i].Nome - Email: @Model.listaDeUsuarios[i].Email <p/>
+                                <div>
+                                    <a href="/Admin/Editar?id=@Model.listaDeUsuarios[i].ID"> Editar</a>
+                                    <a href="/Admin/DeletarUser?id=@Model.listaDeUsuarios[i].ID">Deletar</a>
+                                </div>
+                                
+                            </div>
+                                <p> Data de Nascimento: @Model.listaDeUsuarios[i].DataNascimento.ToShortDateString()</p>
+                        </div> 
+                    }
+                }
+                </div>
+        </div>
+                        
+
+
+
+</section>

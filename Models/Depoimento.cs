@@ -7,6 +7,16 @@ namespace PontoDigitalMark2.Models
     {
         public int Id{get;set;}
 
+        public string Nome {get;set;}
+
+        public string Email {get;set;}
+
+        public string Texto {get;set;}
+
+        public DateTime Data {get;set;}
+        
+        public bool Aprovado {get;set;}
+
         public DateTime DataDepoimento{get;set;}
         public Depoimento()
         {
@@ -20,6 +30,13 @@ namespace PontoDigitalMark2.Models
         public Depoimento(string Nome, string Depoimento){
             this.Nome = Nome;
             this.Depoimento = Depoimento;
+        }
+
+          public Depoimento(string nome, string email, string texto){
+            this.Aprovado = false;
+            this.Nome = nome;
+            this.Email = email;
+            this.Texto = texto;
         }
     }
 }

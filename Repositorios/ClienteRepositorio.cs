@@ -101,6 +101,65 @@ namespace PontoDigitalMark2.Repositorios {
             return $"id={CONT};nome={cliente.Nome};email={cliente.Email};senha={cliente.Senha};data_nascimento={cliente.DataNascimento}\n";
         }
 
+        public List<Cliente> Listar(){
+            List<Cliente> listaDeUsuarios = new List<Cliente>();
+
+            string[] linhas = File.ReadAllLines(PATH);
+
+            foreach (var item in linhas){
+                if (item != null){
+                    string[] dados = item.Split(";");
+
+                    var usuario = new Cliente();
+                    usuario.ID = ulong.Parse(dados[0]);
+                    usuario.Nome = dados[1];
+                    usuario.Email = dados[2];
+                    usuario.Senha = dados[3];
+                    usuario.DataNascimento = DateTime.Parse(dados[4]);
+                    usuario.Admin = bool.Parse(dados[5]);
+
+                    listaDeUsuarios.Add(usuario);
+                }
+            }
+            return listaDeUsuarios;
+        }
+
+                public void Editar(Cliente cliente){
+           string[] linhas = File.ReadAllLines(PATH);
+                
+            for (int i = 0; i < linhas.Length; i++)
+            {
+                string[] linha = linhas[i].Split(";");
+
+                if (cliente.ID.ToString() == linha[0]){
+                    linhas[i] = $"{cliente.ID};{cliente.Nome};{cliente.Email};{cliente.Senha};{cliente.DataNascimento.ToShortDateString()};{cliente.Admin}";
+                    break;
+                }
+            }
+            File.WriteAllLines(PATH,linhas); 
+        }
+
+        public Cliente BuscarPorId(int id){
+            string[] linhas = File.ReadAllLines(PATH);
+            
+            foreach (var item in linhas){
+                string[] dados = item.Split(";");
+
+                if (id.ToString().Equals(dados[0])){
+                    var usuario = new Cliente();
+                    usuario.ID = ulong.Parse(dados[0]);
+                    usuario.Nome = dados[1];
+                    usuario.Email = dados[2];
+                    usuario.Senha = dados[3];
+                    usuario.DataNascimento = DateTime.Parse(dados[4]);
+                    usuario.Admin = bool.Parse(dados[5]);
+
+                    return usuario;
+                }
+            }
+            return null;      
+        }
+
     }
 
 }

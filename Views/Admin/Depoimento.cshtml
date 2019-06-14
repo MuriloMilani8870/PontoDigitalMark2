@@ -1,0 +1,23 @@
+@model PontoDigitalMark2.ViewModels.ContratoViewModel;
+
+<header>
+    @{
+        Html.RenderPartial("_HeaderNavBar");
+    }
+</header>
+
+
+<h1>Registre o seu depoimento!</h1>
+
+<form action="Registrar" method="POST">
+    <label for="nome">Nome</label>
+    <br>
+    <input id="nome" type="text" maxlength="20" minlength="3" name="nome"/>
+
+    <label for="depoimento">Depoimento</label>
+    <br>
+    <input type="text" name="depoimento">
+
+    <input type="submit" value="Registrar">
+
+</form>
