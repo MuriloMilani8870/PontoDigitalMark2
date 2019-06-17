@@ -1,48 +1,57 @@
 @{
-    ViewData["Title"] = "Cadastro - Ponto Digital";
-    ViewData["H2"] = "Cadastro";
+    Layout = "_Layout";
 }
 
-<header>
-    @{
-        Html.RenderPartial("_HeaderNavBar");
-    }
-</header>
-<main>
-        <h2>@ViewData["H2"]</h2>
-        <form method="POST" action='@Url.Action("Cadastrar" , "Cadastro")'>
-            <div>
-                <label for="nome">Nome Completo</label>
-                <br />
-                <input id="nome" type="text" maxlength="40" minlength="3" name="nome" />
+<section class="tudo">
+
+    <h2><img src="IMG/logo.jpg" alt="Logo da empresa" class="LogoCadastro"></h2>
+    <br>
+    <h3>Ponto Digital - Conecte-se conosco!</h3>
+    
+    <div class="TodoConteudo">
+        <div class="Login">
+            <h3>Faça login!</h3>
+            <form action='@Url.Action("Logar", "Login")' method="POST">
+
+                <div class="container">
+                    <label for="uname"><b>Email:</b></label> <br>
+                    <input type="text" placeholder="Insira seu email" name="uname" required>
+                    <br> <br>
+                    <label for="psw"><b>Senha:</b></label> <br>
+                    <input type="password" placeholder="Insira sua senha" name="psw" required>
+                    
+                    <button type="submit">Entrar!</button>
+                </div>
             </div>
-
-            <div>
-                <label for="email">E-mail</label>
-                <br />
-                <input id="email" type="email" name="email"/>
-            </div>
-
-             <div>
-                <label for="senha">Senha</label>
-                <br />
-                <input id="senha" type="password" name="senha"/>
-            </div>
-
-            <div>
-                <label for="confirmar-senha">Confirmar Senha</label>
-                <br />
-                <input id="confirmar-senha" type="password"/>
-            </div>
-
-             <div>
-                <label for="data-nascimento">Data de Nascimento</label>
-                <br />
-                <input id="data-nascimento" type="date" name="data-nascimento"/>
-            </div>
-
-
-            <input type="submit" value="Finalizar Cadastro!" />
         </form>
-
-    </main>
+            
+        <div id="cadastro">
+            <div id="conteudo">
+                <h3>Cadastre-se para se conectar conosco!</h3>
+                <form action='@Url.Action("Cadastrar", "Cadastro")' method="POST">
+                    <div class="inputs">
+                        <label for="nome">Nome completo:</label> <br>
+                        <input type="text" name="nome" id="nome" placeholder="Ex.: João Silveira" maxlength="50" required>
+                    </div>
+                    
+                    <div class="inputs">
+                        <label for="email">E-mail:</label> <br>
+                        <input type="email" name="email" id="email" placeholder="Ex.: joao.silveira@gmail.com" maxlength="30" required>
+                    </div>
+                    
+                    <div class="inputs">
+                        <label for="dataNascimento">Data de Nascimento:</label> <br>
+                        <input type="date" name="dataNascimento" id="dataNascimento" required>
+                    </div>
+                    
+                    <div class="inputs">
+                        <label for="senha">Senha:</label> <br>
+                        <input type="password" name="senha" id="senha" maxlength="30" minlength="6" required>
+                    </div>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

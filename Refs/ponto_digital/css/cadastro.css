@@ -1,0 +1,90 @@
+#banner h2{
+    margin-right: 2em;
+    font-size: 5em;
+}
+#cadastro{
+    background-image: url(../img/fundo-cadastro.png);
+    background-repeat: repeat;
+    background-position: top left;
+}
+#conteudo{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+}
+#conteudo h3{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#conteudo >form{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    margin: 0.5em 0em;
+}
+.inputs label{
+    font-size: 2em;
+    font-weight: bold;
+}
+input{
+    width: 55%;
+    height: 35px;
+    border: 2px solid #000;
+}
+input[type="submit"]{
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 1.5em auto;
+}
+input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ffffff80;
+    box-shadow: 2px 2px #ffffff80;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    input{
+        width: 70%;
+        height: 35px;
+        border: 2px solid #000;
+    }
+    #banner h2{
+        margin-right: 0em;
+        font-size: 3.5em;
+    }
+    #banner {
+        padding: 5em 3em;
+    }
+}
+
+@media screen and (max-width:360px){
+    input{
+        width: 100%;
+        height: 35px;
+        border: 2px solid #000;
+    }
+    #conteudo h3{
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+    .inputs label{
+        font-size: 1.5em;
+    }
+    input{
+        height: 30px;
+    }
+    input[type="submit"]{
+        font-size: 1.5em;
+        height: 2em;
+        margin: 1em auto;
+    }
+}

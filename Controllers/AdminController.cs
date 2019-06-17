@@ -6,148 +6,136 @@ using PontoDigitalMark2.ViewModels;
 
 namespace PontoDigitalMark2.Controllers
 {
-    public class AdminController : Controller
+    public class AdminController: Controller
     {
-        public IActionResult Index()
-        {
-            ViewData["UserNome"] = HttpContext.Session.GetString("USER_NOME");
-            ViewData["UserEmail"] = HttpContext.Session.GetString("USER_EMAIL");
-            ViewData["UserAdm"] = HttpContext.Session.GetString("USER_ADMIN");
+        public IActionResult Index(){
+            ViewData["UserN"] = HttpContext.Session.GetString("USER_NOME");
+            ViewData["UserE"] = HttpContext.Session.GetString("USER_EMAIL");
+            ViewData["UserA"] = HttpContext.Session.GetString("USER_ADMIN");
             ViewData["Css"] = "Admin";
-
-            if (ViewData["UserAdmin"] != null)
-            {
-                if (bool.Parse((string)ViewData["UserAdmin"]))
-                {
-                    AdminViewModel adminViewModel = new AdminViewModel();
-
-                    return View(adminViewModel);
-                }
-            }
-
-            return RedirectToAction("Index", "Home");
-        }
-
-        public IActionResult Comentarios()
-        {
-            ViewData["UserNome"] = HttpContext.Session.GetString("USER_NOME");
-            ViewData["UserEmail"] = HttpContext.Session.GetString("USER_EMAIL");
-            ViewData["UserAdm"] = HttpContext.Session.GetString("USER_ADMIN");
-            ViewData["Css"] = "Comentarios";
-
-            if (ViewData["UserAdm"] != null)
-            {
-                if (bool.Parse((string)ViewData["UserAdm"]))
-                {
-                    AdminViewModel adminViewModel = new AdminViewModel();
-
-                    return View(adminViewModel);
-                }
-            }
-            return RedirectToAction("Index", "Home");
-        }
-        public IActionResult Usuarios()
-        {
-            ViewData["UserNome"] = HttpContext.Session.GetString("USER_NOME");
-            ViewData["UserEmail"] = HttpContext.Session.GetString("USER_EMAIL");
-            ViewData["UserAdm"] = HttpContext.Session.GetString("USER_ADMIN");
-            ViewData["Css"] = "Usuarios";
-
-
-            if (ViewData["UserAdm"] != null)
+            
+            if (ViewData["UserA"] != null)
             {
                 if (bool.Parse((string)ViewData["UserA"]))
                 {
                     AdminViewModel adminViewModel = new AdminViewModel();
-
+                    
                     return View(adminViewModel);
                 }
             }
-            return RedirectToAction("Index", "Home");
+
+            return RedirectToAction("Index","Home");      
         }
 
-
-
-        public IActionResult Aprovar(int id)
-        {
-            ViewData["UserAdm"] = HttpContext.Session.GetString("USER_ADMIN");
-
-            if (ViewData["UserAdm"] == null)
+        public IActionResult Comentarios(){
+            ViewData["UserN"] = HttpContext.Session.GetString("USER_NOME");
+            ViewData["UserE"] = HttpContext.Session.GetString("USER_EMAIL");
+            ViewData["UserA"] = HttpContext.Session.GetString("USER_ADMIN");
+            ViewData["Css"] = "Comentarios";
+            
+            if (ViewData["UserA"] != null)
             {
-                return RedirectToAction("Index", "Home");
+                if (bool.Parse((string)ViewData["UserA"]))
+                {
+                    AdminViewModel adminViewModel = new AdminViewModel();
+            
+                    return View(adminViewModel);
+                }
+            }
+            return RedirectToAction("Index","Home");      
+        }
+        public IActionResult Usuarios(){
+            ViewData["UserN"] = HttpContext.Session.GetString("USER_NOME");
+            ViewData["UserE"] = HttpContext.Session.GetString("USER_EMAIL");
+            ViewData["UserA"] = HttpContext.Session.GetString("USER_ADMIN");
+            ViewData["Css"] = "Usuarios";
+            
+            
+            if (ViewData["UserA"] != null)
+            {
+                if (bool.Parse((string)ViewData["UserA"]))
+                {
+                    AdminViewModel adminViewModel = new AdminViewModel();
+            
+                    return View(adminViewModel);
+                }
+            }
+            return RedirectToAction("Index","Home");      
+        }
+
+        
+
+        public IActionResult Aprovar(int id){
+            ViewData["UserA"] = HttpContext.Session.GetString("USER_ADMIN");
+            
+            if (ViewData["UserA"] == null)
+            {
+                return RedirectToAction("Index","Home");
             }
 
 
             System.Console.WriteLine(id);
-            DepoimentoRepositorio depoimentoRepositorio = new DepoimentoRepositorio();
-            Depoimento depoimento = depoimentoRepositorio.BuscarPorId(id);
-
-            if (depoimento.Aprovado)
-            {
-                depoimento.Aprovado = false;
-            }
-            else
-            {
-                depoimento.Aprovado = true;
+            ComentarioRepositorio comentarioRepositorio = new ComentarioRepositorio();
+            ComentarioModel comentario = comentarioRepositorio.BuscarPorId(id);
+                
+            if (comentario.Aprovado){
+                comentario.Aprovado = false;
+            }else{
+                comentario.Aprovado = true;
             }
 
-            depoimentoRepositorio.Editar(depoimento);
+            comentarioRepositorio.Editar(comentario);
 
             return RedirectToAction("Comentarios");
         }
-        public IActionResult Deletar(int id)
-        {
+        public IActionResult Deletar(int id){
             System.Console.WriteLine(id);
-            DepoimentoRepositorio comentarioRepositorio = new DepoimentoRepositorio();
-            Depoimento comentario = comentarioRepositorio.BuscarPorId(id);
+            ComentarioRepositorio comentarioRepositorio = new ComentarioRepositorio();
+            ComentarioModel comentario = comentarioRepositorio.BuscarPorId(id);
 
             comentarioRepositorio.Deletar(comentario);
 
             return RedirectToAction("Comentarios");
         }
 
-        public IActionResult DeletarUser(int id)
-        {
-            DepoimentoRepositorio usuarioRepositorio = new DepoimentoRepositorio();
-            Depoimento usuario = usuarioRepositorio.BuscarPorId(id);
+        public IActionResult DeletarUser(int id){
+            UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio();
+            UsuarioModel usuario = usuarioRepositorio.BuscarPorId(id);
 
             usuarioRepositorio.Deletar(usuario);
 
             return RedirectToAction("Usuarios");
         }
 
-        public IActionResult Editar(int id)
-        {
+        public IActionResult Editar(int id){
 
-            ViewData["UserNome"] = HttpContext.Session.GetString("USER_NOME");
-            ViewData["UserEmail"] = HttpContext.Session.GetString("USER_EMAIL");
-            ViewData["UserAdm"] = HttpContext.Session.GetString("USER_ADMIN");
+            ViewData["UserN"] = HttpContext.Session.GetString("USER_NOME");
+            ViewData["UserE"] = HttpContext.Session.GetString("USER_EMAIL");
+            ViewData["UserA"] = HttpContext.Session.GetString("USER_ADMIN");
             ViewData["Css"] = "Editar";
-
-
-            if (ViewData["UserAdm"] != null)
+            
+            
+            if (ViewData["UserA"] != null)
             {
-                if (bool.Parse((string)ViewData["UserAdm"]))
+                if (bool.Parse((string)ViewData["UserA"]))
                 {
-                    ClienteRepositorio usuarioRepositorio = new ClienteRepositorio();
-                    Cliente usuarioRecuperado = usuarioRepositorio.BuscarPorId(id);
+                    UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio();
+                    UsuarioModel usuarioRecuperado = usuarioRepositorio.BuscarPorId(id);
 
                     AdminViewModel adminViewModel = new AdminViewModel(usuarioRecuperado);
-
+            
                     return View(adminViewModel);
                 }
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index","Home");      
         }
 
-        public IActionResult EditarUser(IFormCollection form)
-        {
-            ClienteRepositorio clienteRepositorio = new ClienteRepositorio();
-            Cliente usuario = clienteRepositorio.BuscarPorId(int.Parse(form["id"]));
+        public IActionResult EditarUser(IFormCollection form){
+            UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio();
+            UsuarioModel usuario = usuarioRepositorio.BuscarPorId(int.Parse(form["id"]));
 
-            if (usuario == null)
-            {
-                ViewData["Mensagem"] = "Ocorreu um erro durante a edição de usuario";
+            if (usuario == null){
+                ViewData["Mensagem"] = "Ocorreu um erro durante a edição de usuario";    
                 return RedirectToAction("Usuarios");
             }
 
@@ -155,11 +143,11 @@ namespace PontoDigitalMark2.Controllers
             usuario.Email = form["email"];
             usuario.Senha = form["senha"];
 
-            clienteRepositorio.Editar(usuario);
+            usuarioRepositorio.Editar(usuario);
 
 
             return RedirectToAction("Usuarios");
         }
-    }
 
+    }
 }

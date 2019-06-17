@@ -1,0 +1,98 @@
+#banner h2{
+    margin-right: 2em;
+    font-size: 5em;
+}
+#plano{
+    width: 100%;
+    background-image: url(../img/fundo-cadastro.png);
+    background-repeat: repeat;
+    background-position: top left;
+    padding: 1em 0;
+}
+#plano h3{
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+#busca{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.plano_indiv{
+    padding: 1em 0.5em;
+    background: #fff;
+    width: 49%;
+    text-align: center;
+    margin: 0.5em auto;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000,
+    -1px -1px 1px #000,
+    1px -1px 1px #000,
+    -1px 1px 1px #000;
+}
+.plano_indiv:hover{
+    opacity: 0.85;
+}
+.plano_indiv span{
+    font-size: 1.2em;
+}
+.plano_indiv h4{
+    font-size: 3em;
+
+    margin-bottom: 1em;
+}
+.plano_indiv > div img{
+    width: 10%;
+    height: 10%;
+}
+.plano_indiv > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+.plano_indiv > div p{
+    font-size: 2em;
+    font-weight: bold;
+}
+.plano_indiv > p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    #banner h2{
+        margin-right: 0em;
+        font-size: 3.5em;
+    }
+    #banner {
+        padding: 5em 3em;
+    }
+    #plano h3{
+        font-size: 3em;
+        margin-bottom: 0.5em; 
+    }
+    .plano_indiv h4{
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width:360px){
+    #banner h2{
+        /* margin-top: 0.3em; */
+    }
+    #plano h3{
+        font-size: 2.5em;
+    }
+    .plano_indiv{
+        width: 100%;
+    }
+    .plano_indiv span{
+        font-size: 1.1em;
+    }
+}

@@ -1,0 +1,41 @@
+@{
+    Layout = "_AdminLayout";
+}
+@model PontoDigitalMark2.ViewModels.AdminViewModel;
+
+
+<section id="content">
+    <h3>Página de Administração - Gerenciamento de Comentários</h3>
+
+    @if (@Model.listaDeUsuarios.Count == 0)
+    {
+        <p>Não há comentarios para aprovar.</p>
+    }
+    @foreach (var item in @Model.listaDeComentarios)
+    {
+        <div class="comentario">
+            <div class="topo">
+                <p class="nomeEmail">@item.Nome - @item.Email</p>
+                <div class="status">
+                    @if (@item.Aprovado)
+                    {   
+                        <p>Status:</p>
+                        <a href="/Admin/Aprovar?id=@item.ID" class="aprovado">Aprovado</a>
+                    }else
+                    {
+                        <p>Status:</p>
+                        <a href="/Admin/Aprovar?id=@item.ID" class="reprovado">Reprovado</a>
+                    }
+
+                    <a href="/Admin/Deletar?id=@item.ID" >Deletar</a>
+                </div>
+                
+            </div>
+            <p class="texto">@item.Texto</p>
+            <p class="data">@item.Data</p>
+        </div>  
+    }
+
+
+
+</section>

@@ -1,0 +1,507 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    display: none;
+}
+#div_menu{
+    width: 100%;
+    background: #000;
+}
+#menu{
+    width: 90%;
+    padding: 0.7em 0;
+    margin: 0 auto;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#menu .ul_menu p{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+#menu ul p:hover{
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+#menu .ul_menu a{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+#menu ul a:hover{
+    color: #000;
+    background: #fff;
+}
+.botao_menu{
+    display: none;
+}
+.botao_menu:hover{
+    cursor: pointer;
+}
+#banner{
+    padding: 5em 2.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    background: #000;
+    background-image: url('../img/fundo-banner.png');
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px #000;
+}
+#banner img{
+    z-index: 2;
+    max-width: 500px;
+    max-height: 500px;
+}
+#banner h2{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000000,
+            -2px -2px 2px #000000,
+            2px -2px 2px #000000,
+            -2px 2px 2px #000000;
+}
+#banner span{
+    font-size: 1.2em;
+}
+#qualidades{
+    width: 90%;
+    margin: 2em auto;
+    text-align: center;
+}
+#qualidades h3{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#tudo{
+    display: flex;
+    justify-content: space-between;
+}
+#tudo img{
+    max-width: 300px;
+}
+.indiv {
+    max-width: 400px;
+}
+.indiv p{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+.indiv span{
+    font-size: 1.1em;
+}
+#planos{
+    background-image: url(../img/home/fundo-planos.png);
+    background-size: 100%;
+    color: #fff;
+    height: 65vh;
+    background-position: center top;
+}
+#planos h3{
+    position: relative;
+    top: 0.7em;
+    font-size: 3em;
+    text-align: center;
+    margin: 2em 0;
+    text-shadow: 2px 2px 2px #000000,
+            -2px -2px 2px #000000,
+            2px -2px 2px #000000,
+            -2px 2px 2px #000000;
+}
+#planos > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#planos > div >div{
+    margin-top: 5em;
+    text-align: center;
+    width: 25em;
+    padding: 3em 0;
+    background: #00376c;
+}
+#planos a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000000,
+            -1px -1px 1px #000000,
+            1px -1px 1px #000000,
+            -1px 1px 1px #000000;
+    text-transform: uppercase;
+}
+#planos a:hover{
+    color: #f2a620;
+}
+#depoimentos{
+    background: #00376c;
+    padding: 3em 0;
+    color: #fff;
+}
+#depoimentos >div {
+    width: 90%;
+    margin: 0 auto;
+}
+#depoimentos h3{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+#depoimentos >div >div{
+    display: flex;
+    justify-content: space-around;
+}
+#depoimentos >div >div >div{
+    margin-top: 3em;
+    max-width: 20em;
+}
+#depoimentos >div >div >div p{
+    font-size: 1.4em;
+    text-align: left;
+}
+#depoimentos >div >div >div span{
+    font-size: 1.6em;
+    margin-left: 0.3em;
+    text-decoration: underline;
+}
+footer{
+    background: #000;
+    width: 100%;
+    padding-bottom: 2em;
+}
+#rodape{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+#contatos{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contatos p{
+    margin: 1.1em 0;
+    font-size: 1.7em;
+}
+#contatos >div{
+    margin: 1.5em 0;
+    max-width: 10%;
+    height: 100%;
+}
+#contatos img{
+    max-width: 35%;
+    max-height: 35%;
+    margin-left: 1em;
+}
+#contatos img:hover{
+    cursor: pointer;
+}
+#menu_pe{
+    text-align: center;
+    margin-top: 0.5em;
+}
+#menu_pe ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+#menu_pe ul a{
+    color: #fff;
+    font-size: 1.3em;
+    padding: 0.15em 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menu_pe ul a:hover{
+    color: #000;
+    background: #fff;
+}
+
+@media screen and (min-width:1366px){
+
+}
+@media screen and (max-width:768px){
+    .botao_menu{
+        margin-left: 1em;
+        display: block;
+        position: relative;
+    }
+    .botao_menu img{
+        max-width: 8%;
+        max-height: 8%;
+    }
+    #menu{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        background: #000000e0;
+        z-index: 3;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .active{
+        display: block;
+    }
+    #menu ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #banner{
+        padding: 3em 0.5em;
+        max-height: 59vh;
+        background-size: 190%;
+        background-position: center;
+    }
+    #banner img{
+        max-width: 310px;
+        max-height: 310px;
+    }
+    #banner h2{
+        font-size: 2em;
+    }
+    #banner span{
+        font-size: 1.3em;
+    }
+
+    #qualidades{
+        margin: 1em auto;
+    }
+    #qualidades h3{
+        font-size: 2.2em;
+        margin-bottom: 0em;
+    }
+    #tudo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    #tudo img{
+        max-width: 80%;
+    }
+    .indiv {
+        max-width: 45%;
+        margin-top: 0.5em;
+        margin: 2em auto 0 auto;
+    }
+    .indiv p{
+        margin-top: 1em;
+        font-size: 1.4em;
+    }
+    .indiv span{
+        font-size: 1em;
+    }
+    #planos{
+        height: 45vh;
+        background-size: 130%;
+        background-position: center top;
+    }
+    #planos h3{
+        top: 0.3em;
+        font-size: 2em;
+        margin: 0em 0;
+    }
+    #planos > div >div{
+        margin-top: 8.5em;
+        width: 20em;
+        padding: 1.3em 0;
+    }
+    #planos a{
+        font-size: 1.2em;
+    }
+    #depoimentos{
+        padding: 2em 0 3em 0;
+    }
+    #depoimentos h3{
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    #depoimentos >div >div{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    #depoimentos >div >div >div{
+        margin-top: 3em;
+        max-width: 100%;
+    }
+    #depoimentos >div >div >div p{
+        font-size: 1.2em;
+        text-align: left;
+    }
+    #depoimentos >div >div >div span{
+        margin-left: 0.4em;
+    }
+
+    
+    #contatos p{
+        margin: 1em 0;
+        font-size: 1.2em;
+    }
+    #contatos >div{
+        margin: 1em 0;
+        max-width: 20%;
+        height: 100%;
+    }
+    #contatos img{
+        max-width: 30%;
+        max-height: 30%;
+        margin-left: 1em;
+    }
+    #menu_pe{
+        text-align: center;
+        margin-top: 0.5em;
+    }
+    #menu_pe ul a{
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+
+
+
+}
+@media screen and (max-width:360px){
+    #menu .ul_menu a{
+        color: #fff;
+        font-size: 1.2em;
+        padding: 0.52em;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+    }
+    #banner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.3em 0.3em;
+        max-height: 35vh;
+        background-size: 222%;
+        background-position: top;
+    }
+    #banner img{
+        position: absolute;
+        top: 0;
+        max-width: 120px;
+        max-height: 120px;
+    }
+    #banner h2{
+        font-size: 1.2em;
+        margin-top: 2.7em;
+    }
+    #banner span{
+        font-size: 1.1em;
+    }
+
+    #qualidades{
+        margin: 0.5em auto;
+    }
+    #qualidades h3{
+        font-size: 1.5em;
+    }
+    #tudo img{
+        max-width: 50%;
+    }
+    .indiv {
+        max-width: 90%;
+        margin-top: 0.5em;
+        margin: 2em auto 0 auto;
+    }
+    .indiv p{
+        margin-top: 0em;
+        font-size: 1.4em;
+    }
+
+    #planos{
+        height: 30vh;
+        background-size: 165%;
+        background-position: center top;
+    }
+    #planos h3{
+        top: 0.3em;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    #planos > div >div{
+        margin-top: 3em;
+        width: 10em;
+        padding: 0.7em 0;
+    }
+    #planos a{
+        font-size: 1em;
+    }
+
+    #depoimentos{
+        padding: 1em 0;
+    }
+    #depoimentos h3{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    #depoimentos >div >div >div{
+        margin-top: 2em;
+        max-width: 100%;
+    }
+    #depoimentos >div >div >div p{
+        font-size: 1.1em;
+        text-align: left;
+    }
+    #depoimentos >div >div >div span{
+        margin-left: 0.4em;
+        font-size: 1.2em;
+    }
+    #contatos p{
+        margin: 0.5em 0;
+        font-size: 0.8em;
+    }
+    #contatos >div{
+        margin: 1em 0;
+        max-width: 35%;
+        height: 100%;
+    }
+    #contatos img{
+        max-width: 30%;
+        max-height: 30%;
+        margin-left: 1em;
+    }
+    #menu_pe{
+        text-align: center;
+        margin-top: 0.3em;
+    }
+    #menu_pe ul a{
+        color: #fff;
+        font-size: 1em;
+    }
+    #contatos > div{
+        margin-top: 0.4em;
+    }
+}

@@ -5605,9 +5605,7 @@
       "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
-      "hasTools": true,
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
@@ -6433,8 +6431,6 @@
       "type": "package",
       "path": "microsoft.identitymodel.logging/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Logging.dll",
         "lib/net45/Microsoft.IdentityModel.Logging.xml",
         "lib/net451/Microsoft.IdentityModel.Logging.dll",
@@ -6450,8 +6446,6 @@
       "type": "package",
       "path": "microsoft.identitymodel.protocols/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Protocols.dll",
         "lib/net45/Microsoft.IdentityModel.Protocols.xml",
         "lib/net451/Microsoft.IdentityModel.Protocols.dll",
@@ -6467,8 +6461,6 @@
       "type": "package",
       "path": "microsoft.identitymodel.protocols.openidconnect/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
         "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
         "lib/net451/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
@@ -6484,8 +6476,6 @@
       "type": "package",
       "path": "microsoft.identitymodel.protocols.wsfederation/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Protocols.WsFederation.dll",
         "lib/net45/Microsoft.IdentityModel.Protocols.WsFederation.xml",
         "lib/net451/Microsoft.IdentityModel.Protocols.WsFederation.dll",
@@ -6501,8 +6491,6 @@
       "type": "package",
       "path": "microsoft.identitymodel.tokens/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Tokens.dll",
         "lib/net45/Microsoft.IdentityModel.Tokens.xml",
         "lib/net451/Microsoft.IdentityModel.Tokens.dll",
@@ -6518,8 +6506,6 @@
       "type": "package",
       "path": "microsoft.identitymodel.tokens.saml/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Tokens.Saml.dll",
         "lib/net45/Microsoft.IdentityModel.Tokens.Saml.xml",
         "lib/net451/Microsoft.IdentityModel.Tokens.Saml.dll",
@@ -6535,8 +6521,6 @@
       "type": "package",
       "path": "microsoft.identitymodel.xml/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Microsoft.IdentityModel.Xml.dll",
         "lib/net45/Microsoft.IdentityModel.Xml.xml",
         "lib/net451/Microsoft.IdentityModel.Xml.dll",
@@ -6947,7 +6931,6 @@
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".nupkg.metadata",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -7075,8 +7058,6 @@
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -7105,8 +7086,6 @@
       "type": "package",
       "path": "newtonsoft.json.bson/1.0.1",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/Newtonsoft.Json.Bson.dll",
         "lib/net45/Newtonsoft.Json.Bson.xml",
         "lib/netstandard1.3/Newtonsoft.Json.Bson.dll",
@@ -7120,8 +7099,6 @@
       "type": "package",
       "path": "remotion.linq/2.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net35/Remotion.Linq.XML",
         "lib/net35/Remotion.Linq.dll",
         "lib/net40/Remotion.Linq.XML",
@@ -7141,7 +7118,6 @@
       "type": "package",
       "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7154,7 +7130,6 @@
       "type": "package",
       "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7180,7 +7155,6 @@
       "type": "package",
       "path": "runtime.native.system/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7193,8 +7167,6 @@
       "type": "package",
       "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -7221,7 +7193,6 @@
       "type": "package",
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7234,7 +7205,6 @@
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7247,7 +7217,6 @@
       "type": "package",
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7260,7 +7229,6 @@
       "type": "package",
       "path": "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7273,7 +7241,6 @@
       "type": "package",
       "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7299,7 +7266,6 @@
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7312,7 +7278,6 @@
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7338,7 +7303,6 @@
       "type": "package",
       "path": "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7351,7 +7315,6 @@
       "type": "package",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -7364,7 +7327,6 @@
       "type": "package",
       "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -7379,7 +7341,6 @@
       "type": "package",
       "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -7394,7 +7355,6 @@
       "type": "package",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -7409,7 +7369,6 @@
       "type": "package",
       "path": "system.appcontext/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7492,7 +7451,6 @@
       "type": "package",
       "path": "system.collections/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7559,7 +7517,6 @@
       "type": "package",
       "path": "system.collections.concurrent/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7649,7 +7606,6 @@
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7814,7 +7770,6 @@
       "type": "package",
       "path": "system.console/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7925,7 +7880,6 @@
       "type": "package",
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7984,7 +7938,6 @@
       "type": "package",
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8076,7 +8029,6 @@
       "type": "package",
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8117,7 +8069,6 @@
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8156,7 +8107,6 @@
       "type": "package",
       "path": "system.diagnostics.tools/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8212,7 +8162,6 @@
       "type": "package",
       "path": "system.diagnostics.tracing/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8301,7 +8250,6 @@
       "type": "package",
       "path": "system.dynamic.runtime/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8371,7 +8319,6 @@
       "type": "package",
       "path": "system.globalization/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8438,7 +8385,6 @@
       "type": "package",
       "path": "system.globalization.calendars/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8475,7 +8421,6 @@
       "type": "package",
       "path": "system.globalization.extensions/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8515,8 +8460,6 @@
       "type": "package",
       "path": "system.identitymodel.tokens.jwt/5.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net451/System.IdentityModel.Tokens.Jwt.dll",
@@ -8532,8 +8475,6 @@
       "type": "package",
       "path": "system.interactive.async/3.1.1",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net45/System.Interactive.Async.dll",
         "lib/net45/System.Interactive.Async.xml",
         "lib/net46/System.Interactive.Async.dll",
@@ -8551,7 +8492,6 @@
       "type": "package",
       "path": "system.io/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8631,7 +8571,6 @@
       "type": "package",
       "path": "system.io.compression/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8701,7 +8640,6 @@
       "type": "package",
       "path": "system.io.filesystem/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8738,7 +8676,6 @@
       "type": "package",
       "path": "system.io.filesystem.primitives/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8798,7 +8735,6 @@
       "type": "package",
       "path": "system.linq/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8869,7 +8805,6 @@
       "type": "package",
       "path": "system.linq.expressions/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8952,7 +8887,6 @@
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -9035,8 +8969,6 @@
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/Xamarinmac20/_._",
@@ -9117,7 +9049,6 @@
       "type": "package",
       "path": "system.net.primitives/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9260,7 +9191,6 @@
       "type": "package",
       "path": "system.objectmodel/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9329,7 +9259,6 @@
       "type": "package",
       "path": "system.private.datacontractserialization/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.3/System.Private.DataContractSerialization.dll",
@@ -9344,7 +9273,6 @@
       "type": "package",
       "path": "system.reflection/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9424,7 +9352,6 @@
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9459,7 +9386,6 @@
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9503,7 +9429,6 @@
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9547,7 +9472,6 @@
       "type": "package",
       "path": "system.reflection.extensions/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9624,7 +9548,6 @@
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9680,7 +9603,6 @@
       "type": "package",
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9733,7 +9655,6 @@
       "type": "package",
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9789,7 +9710,6 @@
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9905,7 +9825,6 @@
       "type": "package",
       "path": "system.runtime.extensions/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9985,7 +9904,6 @@
       "type": "package",
       "path": "system.runtime.handles/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10022,7 +9940,6 @@
       "type": "package",
       "path": "system.runtime.interopservices/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10114,7 +10031,6 @@
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10148,7 +10064,6 @@
       "type": "package",
       "path": "system.runtime.numerics/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10276,7 +10191,6 @@
       "type": "package",
       "path": "system.runtime.serialization.xml/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10389,7 +10303,6 @@
       "type": "package",
       "path": "system.security.claims/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10427,7 +10340,6 @@
       "type": "package",
       "path": "system.security.cryptography.algorithms/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10561,7 +10473,6 @@
       "type": "package",
       "path": "system.security.cryptography.encoding/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10649,7 +10560,6 @@
       "type": "package",
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10677,7 +10587,6 @@
       "type": "package",
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10774,7 +10683,6 @@
       "type": "package",
       "path": "system.security.principal/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10875,7 +10783,6 @@
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10990,7 +10897,6 @@
       "type": "package",
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11076,7 +10982,6 @@
       "type": "package",
       "path": "system.text.regularexpressions/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11159,7 +11064,6 @@
       "type": "package",
       "path": "system.threading/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11250,7 +11154,6 @@
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11356,7 +11259,6 @@
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11412,7 +11314,6 @@
       "type": "package",
       "path": "system.threading.thread/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11451,7 +11352,6 @@
       "type": "package",
       "path": "system.valuetuple/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/.xml",
@@ -11467,7 +11367,6 @@
       "type": "package",
       "path": "system.xml.readerwriter/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11538,7 +11437,6 @@
       "type": "package",
       "path": "system.xml.xdocument/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11607,7 +11505,6 @@
       "type": "package",
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11645,7 +11542,6 @@
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11715,7 +11611,6 @@
       "type": "package",
       "path": "system.xml.xpath/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11753,7 +11648,6 @@
       "type": "package",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "files": [
-        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11800,11 +11694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2-master\\NovoPontoDigital.csproj",
-      "projectName": "NovoPontoDigital",
-      "projectPath": "c:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2-master\\NovoPontoDigital.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2\\ponto_digital_final.csproj",
+      "projectName": "ponto_digital_final",
+      "projectPath": "C:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2\\ponto_digital_final.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2-master\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

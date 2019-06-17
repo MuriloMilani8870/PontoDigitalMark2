@@ -1,0 +1,34 @@
+@{
+    Layout = "_AdminLayout";
+}
+@model PontoDigitalMark2.ViewModels.AdminViewModel;
+
+<section id="content">
+    <h3>Página de Administração - Edição de Usuário</h3>
+    
+   <form action='@Url.Action("EditarUser", "Admin")' method="POST">
+                <div class="inputs" id="sumir">
+                    <label for="id">ID:</label> <br>
+                    <input type="text" name="id" id="id" value="@Model.UsuarioRecuperado.ID" maxlength="50">
+                </div>
+
+                <div class="inputs">
+                    <label for="nome">Nome completo:</label> <br>
+                    <input type="text" name="nome" id="nome" value="@Model.UsuarioRecuperado.Nome" maxlength="50" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="email">E-mail:</label> <br>
+                    <input type="email" name="email" id="email" value="@Model.UsuarioRecuperado.Email" maxlength="30" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="senha">Senha:</label> <br>
+                    <input type="password" name="senha" id="senha" maxlength="30" minlength="6" value="@Model.UsuarioRecuperado.Senha" required>
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form>
+
+
+</section>

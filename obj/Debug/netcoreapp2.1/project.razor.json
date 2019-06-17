@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2-master\\NovoPontoDigital.csproj",
+  "FilePath": "c:\\Users\\User\\Desktop\\PontoDigital\\PontoDigitalMark2\\ponto_digital_final.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2856,13 +2856,8 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "NovoPontoDigital",
+  "RootNamespace": "ponto_digital_final",
   "Documents": [
-    {
-      "FilePath": "Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
     {
       "FilePath": "Views\\Admin\\Index.cshtml",
       "TargetPath": "Views\\Admin\\Index.cshtml",
@@ -2874,23 +2869,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "Views\\Admin\\Usuarios.cshtml",
+      "TargetPath": "Views\\Admin\\Usuarios.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FilePath": "Views\\Admin\\Comentarios.cshtml",
+      "TargetPath": "Views\\Admin\\Comentarios.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Cliente\\Listar.cshtml",
-      "TargetPath": "Views\\Cliente\\Listar.cshtml",
+      "FilePath": "Views\\Shared\\_AdminLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_AdminLayout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Cliente\\Historico.cshtml",
-      "TargetPath": "Views\\Cliente\\Historico.cshtml",
+      "FilePath": "Views\\Comentarios\\Index.cshtml",
+      "TargetPath": "Views\\Comentarios\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2899,53 +2894,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Views\\Cadastro\\Index.cshtml",
       "TargetPath": "Views\\Cadastro\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Shared\\Sucesso.cshtml",
-      "TargetPath": "Views\\Shared\\Sucesso.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Admin\\Clientes.cshtml",
-      "TargetPath": "Views\\Admin\\Clientes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Cliente\\Login.cshtml",
-      "TargetPath": "Views\\Cliente\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Shared\\Falha.cshtml",
-      "TargetPath": "Views\\Shared\\Falha.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Shared\\_HeaderNavBar.cshtml",
-      "TargetPath": "Views\\Shared\\_HeaderNavBar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Admin\\Depoimento.cshtml",
-      "TargetPath": "Views\\Admin\\Depoimento.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Contrato\\Index.cshtml",
-      "TargetPath": "Views\\Contrato\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

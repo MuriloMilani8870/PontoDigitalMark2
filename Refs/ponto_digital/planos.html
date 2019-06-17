@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PONTO DIGITAL - PLANOS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/planos.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/popup_planos.css">
+</head>
+<body>
+    <header>
+        <h1>Ponto Digital</h1>
+        <div id="div_menu">
+                <span class="botao_menu"><img src="img/icone-sandwich.png" alt="Icone Menu"></span>
+            <nav id="menu" class="menu">
+                <ul class="ul_menu">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="quem_somos.html">Quem somos?</a></li>
+                    <li><a href="sac.html">SAC</a></li>
+                    <p onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</p>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="banner">
+        <img src="img/logo/logo.png" alt="Logo Ponto Digital!">
+        <h2>Planos!</h2>
+    </section>
+
+    <section id="plano">
+        <h3>Escolha o plano para a sua empresa!</h3>
+        <div id="busca">
+            <div class="plano_indiv">
+                <h4>Ponto Trial</h4>
+                <div>
+                    <img src="img/logo/favicon.png" alt="">
+                    <p>1 Funcionário</p>
+                </div>
+                <p><span> Grátis</span> por 1 mês.</p>
+            </div>
+
+            <div class="plano_indiv">
+                <h4>Ponto Simple</h4>
+                <div>
+                    <img src="img/logo/favicon.png" alt="">
+                    <p>5 Funcionários</p>
+                </div>
+                <p><span> R$29,90 </span>por 1 mês.</p>
+            </div>
+          
+            <div class="plano_indiv">
+                <h4>Ponto Medium</h4>
+                <div>
+                    <img src="img/logo/favicon.png" alt="">
+                    <p>50 Funcionários</p>
+                </div>
+                <p><span> R$149,90 </span>por 1 mês.</p>
+            </div>
+
+            <div class="plano_indiv">
+                <h4>Ponto Premium</h4>
+                <div>
+                    <img src="img/logo/favicon.png" alt="">
+                    <p>300 Funcionários</p>
+                </div>
+                <p><span> R$299,90 </span>por 1 mês.</p>
+            </div>
+
+            <div class="plano_indiv">
+                <h4>Ponto Custom</h4>
+                <div>
+                    <img src="img/logo/favicon.png" alt="">
+                </div>
+                <p>Entrar em contato para negociação.</p>
+            </div>
+        </div>    
+        <button class="trigger">Clique para conferir os detalhes!</button>
+    </section>
+
+    <footer>
+            <div id="rodape">
+                <div id="contatos">
+                    <p>Telefone: 94002-8922</p>
+                    <p>E-mail: pontodigital@gmail.com </p>
+                    <div>
+                        <a href="#"><img src="img/icone-facebook.png" alt="Icone Facebook"> </a>
+                        <a href="#"><img src="img/icone-gmail.png" alt="Icone Gmail"> </a>
+                    </div>
+                </div>
+                <nav id="menu_pe">
+                    <ul>
+                            <li><a href="index.html">Home</a></li> 
+                            <li><a href="planos.html">Planos</a></li>
+                            <li><a href="cadastro.html">Cadastro</a></li>
+                            <li><a href="contatos.html">Contatos</a></li>
+                            <li><a href="quem_somos.html">Quem somos?</a></li>
+                            <li><a href="sac.html">SAC</a></li>
+                    </ul>
+                </nav>
+          </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(function() {
+                var nav = $('.menu');
+                var botao = $('.botao_menu');
+                botao.on('click',function(){
+                    nav.toggleClass('active');
+                });
+            });
+        </script>
+
+<div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="img/logo/favicon.png" alt="Logo" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Nome de Usuário</b></label> <br>
+            <input type="text" placeholder="Coloque seu nome de usuário" name="uname" required>
+      <br>
+            <label for="psw"><b>Senha</b></label> <br>
+            <input type="password" placeholder="Coloque sua senha" name="psw" required>
+              
+            <button type="submit">Acessar</button>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+          </div>
+        </form>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+    </script>
+      <div class="modal1">
+        <div class="modal1-content">
+            <span class="close-button">&times;</span>
+            <h3>Planos da Ponto Digital</h1>
+
+            <div id="flex">
+
+                <div class="c_plano">
+                        <h4>Ponto Trial</h4>
+                            <img src="img/logo/favicon.png" alt="Logo">
+                            <p><span>Gestione 1 funcionário.</span></p> <br>
+                            <ul>
+                                    <li>Software otimizado, completo e de fácil uso;</li>
+                                    <li>Localização do funcionário;</li>
+                                    <li>Tempo de trabalho.</li>
+                                </ul>
+                            <p><span>Grátis por 1 mês!</span></p>
+                </div>
+
+                <div class="c_plano">
+                        <h4>Ponto Simple</h4>
+                            <img src="img/logo/favicon.png" alt="">
+                            <p><span> Gestione até 5 funcionários. </span></p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser.</li>
+                            </ul>
+                            <p><span>Por apenas R$29,90 por mês!</span></p>
+                </div>
+
+                <div class="c_plano">
+                        <h4>Ponto Medium</h4>
+                            <img src="img/logo/favicon.png" alt="">
+                            <p><span>Gestione até 50 funcionários. </span> </p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser;</li>
+                                <li>Associação com Folha de Pagamento.</li>
+                            </ul>
+                            <p><span>Por apenas R$149,90 por mês!</span></p>
+                </div>
+
+                <div class="c_plano">
+                        <h4>Ponto Premium</h4>
+                            <img src="img/logo/favicon.png" alt="">
+                            <p><span>Gestione até 300 funcionários. </span> </p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser;</li>
+                                <li>Associação com Folha de Pagamento.</li>
+                            </ul>
+                            <p><span>Por apenas R$299,90 por mês!</span></p>
+                </div>  
+
+                <div class="c_plano">
+                        <h4>Ponto Custom</h4>
+                            <img src="img/logo/favicon.png" alt="">
+                            <p><span>Gestione mais de 300 funcionários. </span> </p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser;</li>
+                                <li>Integração com Folha de Pagamento.</li>
+                            </ul>
+                            <p>Caso sua empresa tenha mais que 300 funcionários,contate-nos para que possamos negociar o preço.</p>
+                </div>
+                
+
+           </div>
+           <p><span> Pagamentos podem ser feitos por:</span></p>
+                <p>Boleto Bancário, Paypal e Depósito. <br>
+                Basta entrar em contato conosco.</p>
+        </div>
+    </div>
+
+    
+      <script>
+    var modal1 = document.querySelector(".modal1");
+    var trigger = document.querySelector(".trigger");
+    var closeButton = document.querySelector(".close-button");
+
+    function toggleModal() {
+        modal1.classList.toggle("show-modal1");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === modal1) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+</script>
+    </body>
+    </html>

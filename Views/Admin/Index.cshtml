@@ -1,0 +1,60 @@
+@{
+    Layout = "_AdminLayout";
+}
+@model PontoDigitalMark2.ViewModels.AdminViewModel;
+
+<section id="content">
+    <h3>Página de Administração</h3>
+    <div id="dadosGerais">
+        <p>Quantidade de usuarios cadastrados: @Model.QuantidadeDeUsuarios</p>
+
+        <p>Quantidade de comentários: @Model.QuantidadeDeComentarios</p>
+
+        <p>Quantidade de comentários aprovados: @Model.QuantidadeDeAprovados</p>
+        <p>Quantidade de comentários reprovados: @Model.QuantidadeDeReprovados</p>
+    </div>
+
+
+        </div>
+
+        <div id="cadastros" class="ultimos">
+            <h4>Ultimos usuários cadastrados:</h4>
+
+            @for (int i = 0; i < @Model.listaDeUsuarios.Count; i++)
+            {
+                if (i >= @Model.listaDeUsuarios.Count-5)
+                {
+                    <div class="cadastro">
+                        
+                            <p class=""> <span>ID: @Model.listaDeUsuarios[i].ID </span> - Nome: @Model.listaDeUsuarios[i].Nome - Email: @Model.listaDeUsuarios[i].Email <br> Data de Nascimento: @Model.listaDeUsuarios[i].DataNascimento.ToShortDateString()</p>
+                    </div> 
+                    
+                }
+            }
+
+        </div>
+    
+    </div>
+
+
+    <br>
+    
+    <div id="colunas">
+        <div id="comentarios" class="ultimos" >
+            <h4>Ultimos comentarios: </h4>
+
+            @for (int i = 0; i < @Model.listaDeComentarios.Count; i++)
+            {
+                if (i >= @Model.listaDeComentarios.Count-3)
+                {
+                    <div class="comentario">
+                        <div class="topo">
+                            <p class="nomeEmail">@Model.listaDeComentarios[i].Nome - @Model.listaDeComentarios[i].Email</p>
+                        </div>
+                        <p>@Model.listaDeComentarios[i].Texto</p>
+                        <p class="data">@Model.listaDeComentarios[i].Data.ToShortDateString()</p>
+                    </div> 
+                    
+                }
+            }
+</section>

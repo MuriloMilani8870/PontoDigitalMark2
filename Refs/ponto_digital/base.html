@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PONTO DIGITAL - BASE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href=""> <!--ADICIONAR CSS DA PAGINA-->
+</head>
+<body>
+    <header>
+        <h1>Ponto Digital</h1>
+        <div id="div_menu">
+                <span class="botao_menu"><img src="img/icone-sandwich.png" alt="Icone Menu"></span>
+            <nav id="menu" class="menu">
+                <ul class="ul_menu">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="quem_somos.html">Quem somos?</a></li>
+                    <li><a href="sac.html">SAC</a></li>
+                    <li><a href="login.html">Login</a></li> <!--ADICIONAR O -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="banner">
+        <img src="img/logo/logo.png" alt="Logo Ponto Digital!">
+        <h2>INSERIR TEXTO PARA O BANNER</h2>
+    </section>
+
+
+
+
+
+    <footer>
+            <div id="rodape">
+                <div id="contatos">
+                    <p>Telefone: 94002-8922</p>
+                    <p>E-mail: pontodigital@gmail.com </p>
+                    <div>
+                        <a href="#"><img src="img/icone-facebook.png" alt="Icone Facebook"> </a>
+                        <a href="#"><img src="img/icone-gmail.png" alt="Icone Gmail"> </a>
+                    </div>
+                </div>
+                <nav id="menu_pe">
+                    <ul>
+                            <li><a href="index.html">Home</a></li> 
+                            <li><a href="planos.html">Planos</a></li>
+                            <li><a href="cadastro.html">Cadastro</a></li>
+                            <li><a href="contatos.html">Contatos</a></li>
+                            <li><a href="quem_somos.html">Quem somos?</a></li>
+                            <li><a href="sac.html">SAC</a></li>
+                            <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+          </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(function() {
+                var nav = $('.menu');
+                var botao = $('.botao_menu');
+                botao.on('click',function(){
+                    nav.toggleClass('active');
+                });
+            });
+        </script>
+    </body>
+    </html>

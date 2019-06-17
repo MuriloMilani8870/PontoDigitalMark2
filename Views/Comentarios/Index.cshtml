@@ -1,0 +1,67 @@
+@{
+    Layout = "_Layout";
+    var user = (string) ViewData["UserN"];
+}
+@model PontoDigitalMark2.ViewModels.ComentariosViewModel
+
+    <section id="bannerComentarios">
+        <img src="IMG/logo.png" alt="Logo Ponto Digital!">
+    </section>
+
+    <div id="content">
+        <section id="comentarios">
+            <h3>Comentários de usuários:</h3>
+
+            @if (@Model.listaDeComentarios.Count() == 0)
+            {
+                <p>Não há nenhum depoimento cadastrado</p>
+                <p>Gostaria de ser o primeiro?</p>
+                
+            }
+                
+        <div id="comentariosFeitos"> 
+            @foreach (var item in @Model.listaDeComentarios)
+            {
+                <div class="comentario">
+                    <p class="nomeEmail">@item.Nome - @item.Email</p>
+                    <p>@item.Texto</p>
+                    <p class="data">@item.Data</p>
+                </div>
+                
+            }
+
+        </div>
+            
+        </section>
+
+        <section id="comentar">
+            <h3>Comente sobre sua experiência com o Ponto Digital!</h3>
+            @if (string.IsNullOrEmpty(user))
+            {
+            <a  onclick="document.getElementById('id01').style.display='block'"> Você precisa efetuar login para poder comentar!</a>
+                
+            <form method="POST">
+                    <div class="inputs" id="mensagem">
+                        <label for="msg">Insira seu comentário:</label> 
+                        <br>
+                        <textarea disabled name="msg" class="input_msg" rows="6"></textarea>
+                    </div>
+                    <input type="submit" class="submit" disabled value="Enviar">
+            </form>
+            }else
+            {
+
+            <form action='@Url.Action("Comentar", "Comentarios")' method="POST">
+                    <div class="inputs" id="mensagem">
+                        <label for="msg">Insira seu comentário:</label> 
+                        <br>
+                        <textarea  name="msg" class="input_msg" rows="6"></textarea>
+                    </div>
+                    <input type="submit" class="submit" value="Enviar">
+            </form>
+                
+            }
+
+
+        </section>
+    </div>

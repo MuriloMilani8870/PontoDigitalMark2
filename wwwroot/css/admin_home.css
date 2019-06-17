@@ -1,0 +1,49 @@
+#dadosGerais{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+}
+#dadosGerais p{
+    width: 25%;
+}
+.ultimos{
+    margin-top: 5em;
+    width: 45%;
+}
+#colunas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cadastro{
+    border-style: solid;
+    border-width: 0.09em;
+    margin: 1em 0;
+    padding: 1em;
+}
+#cadastros p{
+    font-size: 1.1em;
+}
+#cadastros span{
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.ultimos h4{
+    font-size: 1.1em;
+}
+
+@media screen and (max-width:768px){
+    #dadosGerais p{
+        width: 100%;
+        margin: 0.2em 0;
+    }
+
+    #colunas{
+        flex-direction: column;
+    }
+    .ultimos{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,94 @@
+#banner h2{
+    margin-right: 2em;
+    font-size: 5em;
+}
+
+#geral{
+    padding: 2em 0;
+    background-image: url(../img/fundo-cadastro.png);
+    background-position: top center;
+    background-repeat: repeat;
+}
+#geral h3{
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 1em;
+}
+#geral p{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+#cont{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#cont span{
+    font-weight: bold;
+}
+#texto{
+    width: 70%;
+}
+#sociais{
+    width: 30%;
+}
+#sociais img{
+    max-width: 15%;
+    max-height: 15%;
+}
+img[alt="Icone Gmail"]{
+    margin-left: 1.5em;
+}
+
+#mapa{
+    text-align: center;
+}
+#mapa iframe{
+    max-width: 100%;
+}
+
+@media screen and (max-width:768px){
+    #banner h2{
+        margin-right: 0em;
+        font-size: 3.5em;
+    }
+    #sociais img{
+        max-width: 30%;
+        max-height: 30%;
+    }
+    img[alt="Icone Gmail"]{
+        margin-left: 1.5em;
+    }
+    #geral h3{
+        font-size: 3em;
+        margin-bottom: 0.5em;   
+    }
+    #banner {
+        padding: 5em 3em;
+    }
+}
+@media screen and (max-width:360px){
+    #geral h3{
+        font-size: 2.5em;
+    }
+    #geral p{
+        font-size: 1.25em;
+    }
+    #cont{
+        flex-direction: column;
+    }
+
+    #texto{
+        width: 100%;
+    }
+    #sociais{
+        text-align: center;
+        margin-top: 1em;
+        width: 100%;
+    }
+    #sociais img{
+        max-width: 17%;
+    }
+}

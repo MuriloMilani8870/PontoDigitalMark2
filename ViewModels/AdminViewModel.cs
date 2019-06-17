@@ -6,47 +6,48 @@ namespace PontoDigitalMark2.ViewModels
 {
     public class AdminViewModel
     {
-        private ClienteRepositorio clienteRepositorio = new ClienteRepositorio();
-        private DepoimentoRepositorio depoimentoRepositorio = new DepoimentoRepositorio();
-        public List<Depoimento> listaDeDepoimentos = new List<Depoimento>();
-        public List<Cliente> listaDeClientes = new List<Cliente>();
+        private UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio();
+        private ComentarioRepositorio comentarioRepositorio = new ComentarioRepositorio();
+        public List<ComentarioModel> listaDeComentarios = new List<ComentarioModel>();
+        public List<UsuarioModel> listaDeUsuarios = new List<UsuarioModel>();
+        public List<ComentarioModel> listaDeReprovados = new List<ComentarioModel>();
 
-        public List<Depoimento> listaDeReprovados = new List<Depoimento>();
-
-        public Cliente UsuarioRecuperado;
-        public int Depoimentos;
-        public int Aprovados;
-        public int Reprovados;
-        public int Clientes;
+        public UsuarioModel UsuarioRecuperado;
+        public int QuantidadeDeComentarios;
+        public int QuantidadeDeAprovados;
+        public int QuantidadeDeReprovados;
+        public int QuantidadeDeUsuarios;
         
         public AdminViewModel(){
-            listaDeDepoimentos = depoimentoRepositorio.Listar(); 
-            listaDeClientes = clienteRepositorio.Listar();    
-            Depoimentos = listaDeDepoimentos.Count;
+            listaDeComentarios = comentarioRepositorio.Listar(); 
+            listaDeUsuarios = usuarioRepositorio.Listar();    
+            QuantidadeDeComentarios = listaDeComentarios.Count;
 
-            Clientes = listaDeClientes.Count;
-            List<Depoimento> listaDeAprovados = new List<Depoimento>();
-            listaDeAprovados = depoimentoRepositorio.ListarAprovados();
-            Aprovados = listaDeAprovados.Count;
+            QuantidadeDeUsuarios = listaDeUsuarios.Count;
+            List<ComentarioModel> listaDeAprovados = new List<ComentarioModel>();
+            listaDeAprovados = comentarioRepositorio.ListarAprovados();
+            QuantidadeDeAprovados = listaDeAprovados.Count;
             
-            listaDeReprovados = depoimentoRepositorio.ListarReprovados();
-            Reprovados = listaDeReprovados.Count;
+            listaDeReprovados = comentarioRepositorio.ListarReprovados();
+            QuantidadeDeReprovados = listaDeReprovados.Count;
         }
     
-        public AdminViewModel(Cliente usuarioRecuperado){
-            listaDeDepoimentos = depoimentoRepositorio.Listar(); 
-            listaDeClientes = clienteRepositorio.Listar();    
-            Depoimentos = listaDeDepoimentos.Count;
+        public AdminViewModel(UsuarioModel usuarioRecuperado){
+            listaDeComentarios = comentarioRepositorio.Listar(); 
+            listaDeUsuarios = usuarioRepositorio.Listar();    
+            QuantidadeDeComentarios = listaDeComentarios.Count;
 
-            Clientes = listaDeClientes.Count;
-            List<Depoimento> listaDeAprovados = new List<Depoimento>();
-            listaDeAprovados = depoimentoRepositorio.ListarAprovados();
-            Aprovados = listaDeAprovados.Count;
+            QuantidadeDeUsuarios = listaDeUsuarios.Count;
+            List<ComentarioModel> listaDeAprovados = new List<ComentarioModel>();
+            listaDeAprovados = comentarioRepositorio.ListarAprovados();
+            QuantidadeDeAprovados = listaDeAprovados.Count;
             
-            listaDeReprovados = depoimentoRepositorio.ListarReprovados();
-            Reprovados = listaDeReprovados.Count;
+            listaDeReprovados = comentarioRepositorio.ListarReprovados();
+            QuantidadeDeReprovados = listaDeReprovados.Count;
 
             this.UsuarioRecuperado = usuarioRecuperado;
         }            
+
+
     }
 }

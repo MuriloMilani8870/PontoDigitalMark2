@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PONTO DIGITAL - SAC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/sac.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <h1>Ponto Digital</h1>
+        <div id="div_menu">
+                <span class="botao_menu"><img src="img/icone-sandwich.png" alt="Icone Menu"></span>
+            <nav id="menu" class="menu">
+                <ul class="ul_menu">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="quem_somos.html">Quem somos?</a></li>
+                    <li><a href="sac.html">SAC</a></li>
+                    <p onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</p>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="banner">
+        <img src="img/logo/logo.png" alt="Logo Ponto Digital!">
+        <h2>SAC</h2>
+    </section>
+
+    <section id="cac">
+         <h3>Central de Atendimento ao Cliente</h3>
+         <p>Está com dúvida ao acessar nosso site, ou com problemas para fazer um pedido? <br>
+         Ligue no SAC que resolveremos na hora!</p>
+         <p> <span> Telefone: (11) 4404-4594 </span></p>
+         <p>Horário de atendimento: das 8:00 às 20:00, de segunda à sábado.</p>
+    </section>
+
+    <!-- <section id="msg">
+        <div id="msg_cont">
+            <h4>Caso ainda reste alguma dúvida, mande-nos um e-mail direto.</h4>
+            <form action="">
+
+                <div id="nome_email">
+                    <div class="inputs">
+                        <label for="nome">Nome completo:</label> 
+                        <input type="text" name="nome" id="nome" placeholder="Ex.: João Silveira" maxlength="50" required>
+                    </div>
+    
+                    <div class="inputs">
+                        <label for="email">E-mail:</label> 
+                        <input type="email" name="email" id="email" placeholder="Ex.: joao.silveira@gmail.com" maxlength="30" required>
+                    </div>
+                </div>
+
+                <div class="inputs" id="mensagem">
+                    <label for="msg">Mensagem:</label> 
+                    <textarea name="msg" id="input_msg" rows="7"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+    </section> -->
+
+    <footer>
+            <div id="rodape">
+                <div id="contatos">
+                    <p>Telefone: 94002-8922</p>
+                    <p>E-mail: pontodigital@gmail.com </p>
+                    <div>
+                        <a href="#"><img src="img/icone-facebook.png" alt="Icone Facebook"> </a>
+                        <a href="#"><img src="img/icone-gmail.png" alt="Icone Gmail"> </a>
+                    </div>
+                </div>
+                <nav id="menu_pe">
+                    <ul>
+                            <li><a href="index.html">Home</a></li> 
+                            <li><a href="planos.html">Planos</a></li>
+                            <li><a href="cadastro.html">Cadastro</a></li>
+                            <li><a href="contatos.html">Contatos</a></li>
+                            <li><a href="quem_somos.html">Quem somos?</a></li>
+                            <li><a href="sac.html">SAC</a></li>
+                    </ul>
+                </nav>
+          </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(function() {
+                var nav = $('.menu');
+                var botao = $('.botao_menu');
+                botao.on('click',function(){
+                    nav.toggleClass('active');
+                });
+            });
+        </script>
+
+<div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="img/logo/favicon.png" alt="Logo" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Nome de Usuário</b></label> <br>
+            <input type="text" placeholder="Coloque seu nome de usuário" name="uname" required>
+      <br>
+            <label for="psw"><b>Senha</b></label> <br>
+            <input type="password" placeholder="Coloque sua senha" name="psw" required>
+              
+            <button type="submit">Acessar</button>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+          </div>
+        </form>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
+
+    </body>
+    </html>

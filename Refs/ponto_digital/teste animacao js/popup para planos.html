@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/popup_planos.css">
+    <title>Document</title>
+
+</head> 
+<body>
+    <!-- TODO: colocar as funcoes nos planos e adicionar link com o css -->
+    <button class="trigger">Clique para conferir os detalhes!</button>
+    <div class="modal1">
+        <div class="modal1-content">
+            <span class="close-button">&times;</span>
+            <h3>Planos da Ponto Digital</h1>
+
+            <div id="flex">
+
+                <div class="c_plano">
+                        <h4>Ponto Trial</h4>
+                            <img src="../img/logo/favicon.png" alt="">
+                            <p><span>Gestione 1 funcionário.</span></p> <br>
+                            <ul>
+                                    <li>Software otimizado, completo e de fácil uso;</li>
+                                    <li>Localização do funcionário;</li>
+                                    <li>Tempo de trabalho.</li>
+                                </ul>
+                            <p><span>De graça por apenas 1 mês!</span></p>
+                </div>
+
+                <div class="c_plano">
+                        <h4>Ponto Simple</h4>
+                            <img src="../img/logo/favicon.png" alt="">
+                            <p><span> Gestione até 5 funcionários. </span></p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser.</li>
+                            </ul>
+                            <p><span>Por apenas R$29,90 por mês!</span></p>
+                </div>
+
+                <div class="c_plano">
+                        <h4>Ponto Medium</h4>
+                            <img src="../img/logo/favicon.png" alt="">
+                            <p><span>Gestione até 50 funcionários. </span> </p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser;</li>
+                                <li>Associação com Folha de Pagamento.</li>
+                            </ul>
+                            <p><span>Por apenas R$149,90 por mês!</span></p>
+                </div>
+
+                <div class="c_plano">
+                        <h4>Ponto Premium</h4>
+                            <img src="../img/logo/favicon.png" alt="">
+                            <p><span>Gestione até 300 funcionários. </span> </p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser;</li>
+                                <li>Associação com Folha de Pagamento.</li>
+                            </ul>
+                            <p><span>Por apenas R$299,90 por mês!</span></p>
+                </div>  
+
+                <div class="c_plano">
+                        <h4>Ponto Custom</h4>
+                            <img src="../img/logo/favicon.png" alt="">
+                            <p><span>Gestione mais de 300 funcionários. </span> </p> <br>
+                            <ul>
+                                <li>Software otimizado, completo e de fácil uso;</li>
+                                <li>Tenha acesso ao seu historico;</li>
+                                <li>Localização do funcionário;</li>
+                                <li>Tempo de trabalho;</li>
+                                <li>Controle de banco de horas e horas extras;</li>
+                                <li>Controle de atrasos e faltas;</li>
+                                <li>Cancele quando quiser;</li>
+                                <li>Associação com Folha de Pagamento.</li>
+                            </ul>
+                            <p>Caso sua empresa tenha mais que 300 funcionários, para contrate-nos para que possamos negociar o preço.</p>
+                </div>
+
+           </div>
+
+        </div>
+    </div>
+</body>
+<!-- TODO: Colocar script nos planos -->
+<script>
+    var modal1 = document.querySelector(".modal1");
+    var trigger = document.querySelector(".trigger");
+    var closeButton = document.querySelector(".close-button");
+
+    function toggleModal() {
+        modal1.classList.toggle("show-modal1");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === modal1) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+</script>
+
+</html>

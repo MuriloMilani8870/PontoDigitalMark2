@@ -1,0 +1,30 @@
+.aprovado{
+    color: #00ff00;
+    margin: 0 2em 0 0.3em;
+}
+
+.reprovado, a{
+    margin: 0 2em 0 0.3em;
+    color: #ff0000;
+}
+.status{
+    display: flex;
+    font-size: 1em;
+}
+@media screen and (max-width:600px){
+
+    .topo{
+        flex-direction: column;
+    }
+    .texto{
+        margin: 1em 0;
+    }
+}
+@media screen and (max-width:380px){
+    h3{
+        font-size: 1.5em;
+    }
+    /* #content{
+        width: 98%;
+    } */
+}

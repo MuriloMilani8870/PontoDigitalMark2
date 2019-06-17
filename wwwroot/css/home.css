@@ -1,0 +1,27 @@
+#comentarios{
+    display: block;
+    margin: 2.5em 0 -1em 0;    
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width:768px){
+
+    #comentarios{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:360px){
+
+    #comentarios{
+        margin: 1.5em 0.25em 0 0.2s5em;
+        font-size: 1em;
+    }
+
+    #banner h2{
+            font-size: 1.2em;
+            margin-top: 6em;
+        }
+}

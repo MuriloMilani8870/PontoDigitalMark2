@@ -1,0 +1,129 @@
+C:\Users\46791749865\Desktop\ponto_digital_final\bin\Debug\netcoreapp2.1\ponto_digital_final.deps.json
+C:\Users\46791749865\Desktop\ponto_digital_final\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.json
+C:\Users\46791749865\Desktop\ponto_digital_final\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.dev.json
+C:\Users\46791749865\Desktop\ponto_digital_final\bin\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.csprojAssemblyReference.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CoreCompileInputs.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfoInputs.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfo.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.input.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.output.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorCoreGenerate.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Comentarios\Index.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cache
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\46791749865\Desktop\ponto_digital_final\bin\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\46791749865\Desktop\ponto_digital_final\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.dll
+C:\Users\46791749865\Desktop\ponto_digital_final\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CopyComplete
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Cadastro\Index.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Planos\Index.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Quem_somos\Index.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Contatos\Index.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Comentarios.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Usuarios.g.cshtml.cs
+C:\Users\46791749865\Desktop\ponto_digital_final\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Editar.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\bin\Debug\netcoreapp2.1\ponto_digital_final.deps.json
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.json
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.dev.json
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\bin\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\bin\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.dll
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfo.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.input.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.output.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorCoreGenerate.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Comentarios.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Editar.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Usuarios.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Cadastro\Index.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Comentarios\Index.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Contatos\Index.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Planos\Index.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Quem_somos\Index.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\User\Desktop\Area de trabalho\PROJETOFINAL-22dc5ab4bc30bb7a434a743addd8ee4642b51255\ponto_digital_final-master\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CopyComplete
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.csprojAssemblyReference.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfo.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.input.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.output.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorCoreGenerate.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Comentarios.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Editar.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Usuarios.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Cadastro\Index.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\User\Desktop\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.deps.json
+C:\Users\User\Desktop\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.json
+C:\Users\User\Desktop\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.dev.json
+C:\Users\User\Desktop\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\User\Desktop\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\User\Desktop\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.dll
+C:\Users\User\Desktop\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\User\Desktop\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CopyComplete
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.deps.json
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.json
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.runtimeconfig.dev.json
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.dll
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\bin\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.csprojAssemblyReference.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.AssemblyInfo.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.input.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.TagHelpers.output.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorCoreGenerate.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Comentarios.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Editar.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Usuarios.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Cadastro\Index.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.Views.pdb
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.dll
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.pdb
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\ponto_digital_final.csproj.CopyComplete
+C:\Users\User\Desktop\PontoDigital\PontoDigitalMark2\obj\Debug\netcoreapp2.1\Razor\Views\Comentarios\Index.g.cshtml.cs
